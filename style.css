@@ -53,13 +53,37 @@ body{
 	overflow: hidden;
 	margin: 0 auto;
 }
-#shopHeadphones{
-	position: relative;
-	right: 13em;
-	bottom: 16em;
+.nav-FontIcon{
+	position: absolute;
+	bottom: 4em;
+	left: 41em;
+	height: 4em;
+	text-decoration: none;
+	color: black;
+	padding-right: 4em;
 }
-#shopHeadphones1{
-	position: relative;
-	left: 22em;
-	bottom: 16em;
+.nav-FontIcon1{
+	position: absolute;
+	bottom: 0em;
+	left: 26em;
+	height: 4em;
+	text-decoration: none;
+	color: black;
+	padding-right: 4em;
+}
+.nav-FontIcon:before {
+	position: absolute;
+	right: 0;
+	top: -0.3em;
+	font-size: 3em;
+	color: white;
+	text-shadow: 2px 3px #777777;
+}
+.nav-FontIcon1:before{
+	position: absolute;
+	left: -1.3em;
+	top: -0.3em;
+	font-size: 3em;
+	color: white;
+	text-shadow: 2px 3px #777777;
 }
