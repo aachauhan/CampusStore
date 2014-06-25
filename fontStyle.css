@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('/Users/adie/Documents/Workspace/CampusStore/fonts/fonts/custom-font-1.eot'); /* IE9 Compat Modes */
+  src: url('/Users/adie/Documents/Workspace/CampusStore/fonts/fonts/custom-font-1.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/Users/adie/Documents/Workspace/CampusStore/fonts/fonts/custom-font-1.woff') format('woff'), /* Modern Browsers */
+       url('/Users/adie/Documents/Workspace/CampusStore/fonts/fonts/custom-font-1.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/Users/adie/Documents/Workspace/CampusStore/fonts/fonts/custom-font-1.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
