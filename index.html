@@ -1,37 +1,267 @@
 <!DOCTYPE HTML>
-<html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="/Users/adie/Documents/Workspace/CampusStore/fonts/styles.css"> <!-- Font Styling CSS-->
-	</head>
-	<body>
-		<div class="inner-content" id="header">
-			<img id="USUwatermark" alt="USU Logo" src="/Users/adie/Documents/Workspace/CampusStore/images/ustate_top_banner_logo.png">
-		<ul>
-			<li><form style="margin: 0 auto;"><input type="text"><img id="searchIcon" alt="magnifying glass" src="/Users/adie/Documents/Workspace/CampusStore/images/search_icon_emo.png"></form></li>
-			<li>Search USU</li>
-			<li>Calendars</li>
-			<li>MyUSU</li>
-			<li>Giving</li>
-			<li>Directory</li>
-			<li>A-Z index</li>
-		</ul>
-		</div>
+	<html>
+		<head>
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+			<link rel="stylesheet" href="owl-carousel/owl.theme.css">
+			<link rel="stylesheet" type="text/css" href="/Users/adie/Documents/Workspace/CampusStore/fonts/styles.css"> <!-- Font Styling CSS-->
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+			<script src="owl-carousel/owl.carousel.js"></script>
+			<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+			<script type="text/javascript" src="slider.js"></script>
+			<script src="jquery.cycle2.js"></script>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</head>
+		<body>
 
-		<div id="bannerContainer" class="inner-content">
-			<div id="mainImg">
-				<img id="bannerImg" alt="Two students with tech gadgets" src="/Users/adie/Documents/Workspace/CampusStore/images/main_banner_img.jpg"/>
+			<div class="inner-content" id="header">
+				<img id="USUwatermark" alt="USU Logo" src="/Users/adie/Documents/Workspace/CampusStore/images/ustate_top_banner_logo.png">
+				<ul>
+					<li><form style="margin: 0 auto;"><input type="text"><img id="searchIcon" alt="magnifying glass" src="/Users/adie/Documents/Workspace/CampusStore/images/search_icon_emo.png"></form></li>
+					<li>Search USU</li>
+					<li>Calendars</li>
+					<li>MyUSU</li>
+					<li>Giving</li>
+					<li>Directory</li>
+					<li>A-Z index</li>
+				</ul>
 			</div>
-				<img id="usulogo" alt="USU campus store logo" src="/Users/adie/Documents/Workspace/CampusStore/images/usu_logo_2.png" />
+			<div id = "background-style" class="header-transparent">
+				<input class="input-header-trans" type="text" value="Search Campus Store" /> <input class="button-header-trans" type="submit" value="GO" />
+				<ul class="ul-header-transparent">
+					<li>
+						<a href="#" class="loginTrigger">LOG IN</a>
+					</li>
+					<li>| &nbsp; &nbsp; VIEW SHOPPING CART</li>
+				</ul>
+
+				<div class="login-drop-down">
+					<span class="label-login-dropdown">ALREADY A MEMBER?</span>
+					<input class="in-email-dropdown" type="Text" value="Email Address:" />
+					<input class="in-email-dropdown" type="Text" value="Your Password:" />
+					<span class="submit-btn-login">Submit</span>
+					<a class="link-fp-dropdown" href="#">Forgot your password?</a>
+					<span class="label-signup-dropdown">NOT A MEMBER?</span>
+					<span class="label-signup">Create an account</span>
+					<span class="btn-signup-dropdown">SIGN UP</span>
+				</div>
+			</div>
+
+			<div id="bannerContainer">
+				<div id="mainImg" class="toggleBannerImg">
+					<img id="bannerImg" alt="Two students with tech gadgets" src="/Users/adie/Documents/Workspace/CampusStore/images/main_banner_img.jpg"/>
+				</div>
+					<img id="usulogo" alt="USU campus store logo" src="/Users/adie/Documents/Workspace/CampusStore/images/usu_logo_2.png" />
+					
+					<a href="#" class="nav-FontIcon" data-icon="i">
+						SHOP HEADPHONES
+					</a>
+					
+					<a href="#" class="nav-FontIcon1" data-icon="n">
+						SHOP AGGIE TECH
+					</a>
+			</div>
+
+			<div class="wrapper-ul-nav">
+			<ul class="inner-content ul-nav">
+				<li id="dropUptrigger" class="li-nav-box li-nav-box-books" data-icon="j">BOOKS
+					<ul class="ul-books-dropup">
+						
+						<ul class="column-three first float-left style-ul-BDU-1">
+							<li class="li-style-BDU no-list big-font"><a class="no-text-decoration" href="#">VIEW YOUR PERSONALIZED BOOKLIST</a></li>
+							<li class="li-style-BDU no-list big-font"><a class="no-text-decoration" href="#">FIND TEXTBOOKS BY COURSE</a></li>
+							<li class="li-style-BDU no-list big-font"><a class="no-text-decoration" href="#">TEXTBOOK BUYBACK</a></li>
+						</ul>
+
+						<ul class="column-three style-ul-BDU-2">
+							<li class="no-list big-font li-style"><a class="no-text-decoration" href="#">FOR OUR FACULTY</a></li>
+							<li class="no-list small-font li-style"><a class="no-text-decoration" href="#">Textbook FAQ</a></li>
+							<li class="no-list small-font li-style"><a class="no-text-decoration" href="#">Academic Publishing</a></li>
+							<li class="no-list small-font li-style"><a class="no-text-decoration" href="#">Submit Adoptions</a></li>
+						</ul>
+
+						<ul class="column-three style-ul-BDU-3">
+							<div class="buy-books-dropup">
+								<span class="label-div-Bdropup">BUY BOOKS ON CAMPUS</span>
+								<br/>
+								<span class="label-BDU">Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+							</div>
+						</ul>
+
+					</ul>
+				</li>
 				
-				<a href="#" class="nav-FontIcon" data-icon="c">
-					SHOP HEADPHONES
-				</a>
+				<li id="AGDU-slideTrigger" class="li-nav-box li-nav-box-aggiegear" data-icon="k">AGGIE GEAR
+					<ul class="ul-aggiegear-dropup">
+						<ul class="column-fourth first float-left style-ul-AGDU-1">
+							<li class="margin-li-AGDU no-list"><a class="no-text-decoration big-font" href="#">MEN</a></li>
+							<li class="margin-li-AGDU no-list"><a class="no-text-decoration small-font" href="#">T-Shirts</a></li>
+							<li class="margin-li-AGDU no-list"><a class="no-text-decoration small-font" href="#">Outerwear</a></li>
+							<li class="margin-li-AGDU no-list"><a class="no-text-decoration small-font" href="#">Pools & Sports</a></li>
+							<li class="margin-li-AGDU no-list"><a class="no-text-decoration small-font" href="#">Performance & Sports Gear</a></li>
+							<li class="margin-li-AGDU no-list"><a class="no-text-decoration small-font" href="#">Nike Shirts</a></li>
+							<li class="margin-li-AGDU no-list"><a class="no-text-decoration small-font" href="#">Pants & Shorts</a></li>
+							<li class="margin-li-AGDU no-list"><a class="no-text-decoration small-font" href="#">Sweatshirts</a></li>
+						</ul>
+						
+						<ul class="column-fourth style-ul-AGDU-2">
+							<li class="margin-li-AGDU no-list"><a class="no-text-decoration big-font" href="#">WOMEN</a></li>
+							<li class="margin-li-AGDU no-list"><a class="no-text-decoration small-font" href="#">T-Shirts</a></li>
+							<li class="margin-li-AGDU no-list"><a class="no-text-decoration small-font" href="#">Outerwear</a></li>
+							<li class="margin-li-AGDU no-list"><a class="no-text-decoration small-font" href="#">Pools & Sports</a></li>
+							<li class="margin-li-AGDU no-list"><a class="no-text-decoration small-font" href="#">Performance & Sports Gear</a></li>
+							<li class="margin-li-AGDU no-list"><a class="no-text-decoration small-font" href="#">Nike Shirts</a></li>
+							<li class="margin-li-AGDU no-list"><a class="no-text-decoration small-font" href="#">Pants & Shorts</a></li>
+							<li class="margin-li-AGDU no-list"><a class="no-text-decoration small-font" href="#">Sweatshirts</a></li>
+						</ul>
+
+						<ul class="column-fourth style-ul-AGDU-3">
+							<li class="margin-li-AGDU no-list "><a class="no-text-decoration big-font" href="#">CHILDREN</a></li>
+							<li class="margin-li-AGDU no-list "><a class="no-text-decoration small-font" href="#">Boys</a></li>
+							<li class="margin-li-AGDU no-list "><a class="no-text-decoration small-font" href="#">Girls</a></li>
+							<li class="margin-li-AGDU no-list "><a class="no-text-decoration small-font" href="#">Head Gear</a></li>
+							<li class="margin-li-AGDU no-list "><a class="no-text-decoration small-font" href="#">Shoes</a></li>
+							<li class="margin-li-AGDU no-list "><a class="no-text-decoration big-font" href="#">Graduation</a></li>
+							<li class="margin-li-AGDU no-list "><a class="no-text-decoration big-font" href="#">HATS/BEANIES</a></li>
+							<li class="margin-li-AGDU no-list "><a class="no-text-decoration big-font" href="#">SHOES/SOCKS</a></li>
+						</ul>
+
+						<ul class="column-fourth style-ul-AGDU-4">	
+							<div class="aggiePride-banner-AGDU">
+								<span class="label-div-Bdropup">WEAR YOUR AGGIE PRIDE</span>
+								<br/>
+								<span class="label-BDU">Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+							</div>
+						</ul>
+
+					</ul>
+				</li>
+
+				<li class="li-nav-box li-nav-box-aggietech" data-icon="m">AGGIE TECH</li>
+				<li class="li-nav-box li-nav-box-supplies" data-icon="l">SUPPLIES</li>
+			</ul>
+			</div>
+
+			<div class="content-wrapper">
 				
-				<a href="#" class="nav-FontIcon1" data-icon="b">
-					SHOP AGGIE TECH
-				</a>
-		</div>
-		
-	</body>
-</html>
+				<h2 class="head-slider">TRENDING ITEMS</h2>
+					
+					<div class="customNavigation">
+ 						<a class="btn prev" class="owl-page" ><span data-icon="e" onclick="owl.trigger('owl.next');"></span></a>
+					</div>
+
+				<div id="owl-example" class="slider-container owl-carousel">
+					<div class="item"><img src="images/tshirt_thumb.jpg"/></div>
+					<div class="item"><img src="images/tshirt_thumb.jpg"/></div>
+					<div class="item"><img src="images/tshirt_thumb.jpg"/></div>
+					<div class="item"><img src="images/tshirt_thumb.jpg"/></div>
+					<div class="item"><img src="images/tshirt_thumb.jpg"/></div>
+					<div class="item"><img src="images/tshirt_thumb.jpg"/></div>
+					<div class="item"><img src="images/tshirt_thumb.jpg"/></div>
+				</div>
+				
+				<div class="customNavigation">
+ 					<a class="btn next" data-icon="d"></a>
+				</div>
+				
+				<div class="owl-controls clickable">
+					<div class="owl-pagination">
+						<div class="owl-page active">
+							<span class></span>
+						</div>
+						<div class="owl-page">
+							<span class></span>
+						</div>
+						<div class="owl-page">
+							<span class></span>
+						</div>
+					</div>
+				</div>
+
+				<div class="content-container">
+					<div class="cycle-slideshow">
+						<img class="slide-image" alt="campus news" src="images/campus_store_news.jpg" />
+						<img class="slide-image" alt="campus news" src="http://campusstore.usu.edu/images/Product/medium/34374.jpg" />
+						
+						<div class="cycle-pager"></div>
+					</div>
+
+					<div class="content-store-news">
+					<h3>CAMPUS STORE NEWS</h3>
+
+					<span class="blue-content">March 8</span>
+					<span class="text-content">USU Ecologist Susannah French Receives Prestigious <br /> NSF career Award</span>
+
+					<span class="blue-content">March 10</span>
+					<span class="text-content">USU Ecologist Susannah French Receives Prestigious <br /> NSF career Award</span>
+					</div>
+
+					<div class="twitter-feed">
+						<a class="twitter-timeline" href="https://twitter.com/ChauhanAdie" data-widget-id="483723985134174208">Tweets by @ChauhanAdie</a>
+					</div>
+				</div>
+
+				<span class="style-sign-up bold-heyaggies margin-signup">HEY AGGIES!</span>
+				<p class="style-sign-up smalltext-signup margin-signup">Want awesome and exclusive deals from <br />
+				USU Campus Store? Give us your email <br /> and we'll send you amazing deals
+				</p>
+				<form class="style-sign-up margin-signup">
+				<input type="text" value="mail@example.com" class="input-sign-up" />
+				<input class="button-signup" type="button" value="SIGN UP NOW!" />
+				</form>
+			</div>
+
+
+
+			<div class="inner-content footer">
+				
+				<ul class="ul-footer-nav">
+					<li class="footer-nav-li">FOOTER NAV ITEM 1
+							<li>Item No. 1</li>
+							<li>Item No. 2</li>
+							<li>Item No. 3</li>
+							<li>Item No. 4</li>
+					</li>
+				</ul>
+				
+				<ul class="ul-footer-nav">
+					<li>FOR OUR FACULTY
+						<li>Textbook FAQ</li>
+						<li>Academic Publishing</li>
+						<li>Submit Adoptions</li>
+					</li>
+				</ul>
+
+				
+				<ul class="ul-footer-nav">
+					<li>FOOTER NAV ITEM 3
+							<li>Item No. 1</li>
+							<li>Item No. 2</li>
+							<li>Item No. 3</li>
+							<li>Item No. 4</li>
+					</li>
+				</ul>
+
+				<a href="#" class="font-color-white"><ul class="ul-footer-nav font-icon-socialmedia" data-icon="f">
+				</ul></a>
+
+				<a href="#" class="font-color-white"><ul class="ul-footer-nav font-icon-socialmedia" data-icon="h">
+				</ul></a>
+
+				<a href="#" class="font-color-white"><ul class="ul-footer-nav font-icon-socialmedia" data-icon="g">
+				</ul></a>
+
+			</div>
+
+			<div class="inner-content footer-final">
+					<span>The Campus Store Returns all revenues to USU</span>
+					<ul>
+						<li class="nav-footer-final-li">&copy;2010 Utah State University</li>
+						<li class="nav-footer-final-li">About this site &nbsp; &nbsp; |</li>
+						<li class="nav-footer-final-li">Contact Us &nbsp; &nbsp; |</li>
+						<li class="nav-footer-final-li"	>Website Feedback</li>
+					</ul>
+			</div>
+
+		</body>
+	</html>
